@@ -2,7 +2,7 @@
 import json
 from database import BaseCRUD 
 
-TOKEN = "5901209945:AAGQqHQmo5xOk-zlWYZJrNQOH48N8FmGoKU"
+TOKEN = "YOUR_BOT_TOKEN"
 
 DB_NAME = 'database/database.db'
 users = BaseCRUD(DB_NAME, 'users')
